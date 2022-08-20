@@ -1,64 +1,68 @@
-# CashBook Expense Tracker Website
+    updated: Saturday, 20th August 2022
 
-> An expense tracker application built with the MERN stack & Ant Design.
 
-This is a full stack Expense Tracker Application built using MongoDB, Express.JS, React.JS, Node.JS
+
+# [Memories](https://memories-club.herokuapp.com)
+
+## Demo Credentials
+
+-   User Email : demo@gmail.com
+-   Password: demopass
+
+## Table of Contents
+
+-   [Introduction](#introduction)
+-   [Acknowledgement](#acknowledgement)
+-   [Featues](#features)
+-   [Tech Stack Used](#tech-stack-used)
+-   [Previews](#previews)
+-   [Demo](#demo)
+-   [License](#license)
+
+---
+
+## Introduction
+
+-   In earlier days people used to store their valuable memories in Diaries.
+-   Days have changed, but needs of people still remain the same.
+-   This is a WebApp helps suffice the need for a Digital Diary and help improve the user Experience.
+
+
+---
+
 
 ## Features
 
-- Add, Edit and Delete Transactions.
-- Filter transactions by Date.
-- Filter transactions by Type.
-- Analysis of amount earned through income as well as amount spent through expense.
-- Analysis of various types of income and expense.
-- User login and logout.
-- All the things are updated without page reloading.
+-   Minimalist Look, TransLucent Card Type Posts
+-   CRUD based Operations, Post Search Functionality with Tags
+-   Details Page of each Post Card, Recommended Posts
+-   Image Compression (compresses every image under 1MB)
+-   Like - Comment - Tag functionality and 2 Way Authentication (JWT Token & Google OAuth)
+-   Random Custom User Avatar
+-   Image Drag and Drop functionality in Preview while creation
+-   Private Post and Comment Deletion Functionality
+-   Attention to detail features like comment circular progress, custom Private button gives it the wow factor
+-   Post Owners can regulate comments in their posts
+-   While deleting comment TrashCan icon turns CircularProgress
+-   Comments section only visible if at least 1 comment exist in a post.
 
-## Usage
+## Tech Stack Used
 
-### ES Modules in Node
+-   Material UI: Styling & Icons
+-   MongoDB: For DataBase Management
+-   ExpressJs: For BaackEnd Routing
+-   React: FrontEnd Developement
+-   NodeJS: For BackEnd developement
+-   Netlify: For hosting the frontEnd
+-   Heroku: Hosting the backEnd
 
-I use ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.
+---
 
-Also, when importing a file (not a package), be sure to add .js at the end or you will get a "module not found" error
 
-You can also install and setup Babel if you would like
+## License
 
-### Env Variables
+-   see [LICENSE]
 
-Create a .env file in then root and add the following
+**Devesh, 2022**
 
-```
-NODE_ENV = development
-PORT = 5000
-MONGO_URI = Your Mongo DB URI [Mongo DB connection string]
-
-```
-
-### Install Dependencies (frontend & backend)
-
-```
-npm install
-cd frontend
-npm install
-```
-
-### Run
-
-```
-# Run frontend (:3000) & backend (:5000)
-npm run start/npm start
-
-# Run backend only
-node server.js
-```
-
-## Build & Deploy
-
-```
-# Create frontend prod build
-cd frontend
-npm run build
-```
-
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
+[license]: https://github.com/warmachine028/memories/blob/main/LICENSE
